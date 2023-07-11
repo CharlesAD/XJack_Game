@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Black Jack</title>
+        <link rel="stylesheet" href="index.css">
+        <audio id="winSound" src="mixkit-small-win-2020.wav"></audio>
+        <audio id="loseSound" src="mixkit-8-bit-lose-2031.wav"></audio>
+        <audio id="drawSound" src="mixkit-electronic-retro-block-hit-2185.wav"></audio>
+        
+    </head>
+
+    <body>
+        <h2> Dealer: <span id="dealer-sum"></span></h2>
+        <div id="dealer-cards">
+            <img id="card-back"  src="./cards/BACK.png">
+        </div>
+        <h2>Your Time:</h2>
+        <div id="countdown"></div>
+
+        <p id="results"></p>
+
+        <h2> Player: <span id="player-sum"></span></h2>
+        <div id="player-cards"></div>
+
+        <br>
+        <button id="hit">Hit</button>
+        <button id="stay">Stay</button>
+        <br>
+        <br>
+        <button id="boost">Boost</button>
+        
+        <br>
+        
+        <input value="RESTART GAME" onclick="history.go(0)" type="button" id="restart">
+        
+        
+        <script  src="index.js"></script>
+    </body>
+</html>
