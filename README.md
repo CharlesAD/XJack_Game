@@ -1,3 +1,5 @@
+Welcome_To_XJack.png
+
 - Added Boost Feature
 - Stream lined it by removing split feature
 - Added pressure by introducing timer feature
@@ -50,7 +52,7 @@ This project was developed as a learning exercise and is based on various online
 
 
 
-Welcome to my blackjack Project! I hope you have as much fun playing with it as I did making it. Enjoy! 
+I hope you have as much fun playing with it as I did making it. Enjoy! 
 
 
 
