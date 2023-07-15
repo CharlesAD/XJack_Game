@@ -1,50 +1,76 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-color: rgb(82, 219, 82);
-}
+    background: #FFEFBA;  
+    background: -webkit-linear-gradient(to right, #fff6e2, #ffedb0);  
+    background: linear-gradient(to right, #fff6e2, #ffedb0); 
 
+}
+#game-table {
+    display: none;
+  }
 #dealer-cards img {
-    height: 175px;
-    width: 125px;
+    height: 140px;
+    width: 100px;
     margin: 1px;
 }
 
 #player-cards img {
-    height: 175px;
-    width: 125px;
+    height: 140px;
+    width: 100px;
     margin: 1px;
 }
 
 #hit {
-    width: 100px;
-    height: 50px;
+    width: 85px;
+    height: 45px;
     font-size: 20px;
     font-weight: 700;
-    background-color: rgb(127, 240, 82);
-    border-radius: 5px;
+    background: #56ab2f;  
+    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f); 
+    background: linear-gradient(to right, #a8e063, #56ab2f);
+    border-radius: 3px;
+    border: 5px;
 }
 
 #stay {
-    width: 100px;
-    height: 50px;
+    width: 85px;
+    height: 45px;
     font-size: 20px;
     font-weight: 700;
-    background-color: rgb(255, 45, 45);
-    border-radius: 5px;
+    background: #f85032;  
+    background: -webkit-linear-gradient(to right, #e73827, #f85032);  
+    background: linear-gradient(to right, #e73827, #f85032); 
+    border-radius: 3px;
+    border: 5px;
 }
 
 #boost {
-    width: 150px;
-    height: 75px;
+    width: 85px;
+    height: 45px;
     font-size: 20px;
     font-weight: 700;
-    background-color: rgb(255, 237, 45);
-    border-radius: 5px;
+    background: #FFE000; 
+    background: -webkit-linear-gradient(to right, #c2b500, #FFE000); 
+    background: linear-gradient(to right, #c2b500, #FFE000); 
+    border-radius: 3px;
+    border: 5px;
+}
+
+#pause-button {
+    width: 85px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 700;
+    background: #9CECFB;  
+    background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);  
+    background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB); 
+    border-radius: 3px;
+    border: 5px;
 }
 
 #countdown {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 700;
 }
 
@@ -54,10 +80,32 @@ body {
     font-size: 20px;
     margin-top: 10px;
     font-weight: 700;
+    background: #3E5151; 
+    background: -webkit-linear-gradient(to right, #DECBA4, #fff3d2);  
+    background: linear-gradient(to right, #DECBA4, #fff3d2); 
+    border-radius: 3px;
 }
 
 #results {
     font-weight: 700;
-    font-size: 30px;
-    
+    font-size: 30px;    
+}
+
+#start-button {
+    width: 250px;
+    height: 150px;
+    font-size: 20px;
+    font-weight: 700;
+    background: #56ab2f;  
+    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f); 
+    background: linear-gradient(to right, #a8e063, #56ab2f);
+    border-radius: 3px;
+    border: 5px;
+}
+
+#start-button:hover {
+    width: 300px;
+    height: 180px;
+    transition-duration: 200ms;
+    transition-timing-function: ease;
 }

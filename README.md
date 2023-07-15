@@ -1,3 +1,11 @@
+- Added Boost Feature
+- Stream lined it by removing split feature
+- Added pressure by introducing timer feature
+- add level (maybe change times, or enable boost)
+- add start game screen for usability reasons
+- added freeze feature with points penalty
+- hid the start screen once game started
+
 Blackjack_Game
 
 Welcome to my blackjack Project! I hope you have as much fun playing with it as I did making it. Enjoy! 
