@@ -29,6 +29,10 @@ XJack is a simple browser-based Blackjack game implemented using HTML, CSS, and 
 - **Freeze**: The player can use the Freeze feature to pause the countdown timer but they will gain additional points.
 - **Countdown Timer**: A 10-second countdown timer adds excitement to the game.
 
+## Features Breakdowns
+- **Score Boost**:
+![Score Boost](https://github.com/CharlesAD/XJack_Game/blob/master/carbon.png)
+
 
 ## How to Play
 
