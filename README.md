@@ -1,14 +1,3 @@
-Welcome_To_XJack.png
-
-- Added Boost Feature
-- Stream lined it by removing split feature
-- Added pressure by introducing timer feature
-- add level (maybe change times, or enable boost)
-- add start game screen for usability reasons
-- added freeze feature with points penalty
-- hid the start screen once game started
-
-
 # XJack - Blackjack Game
 
 XJack is a simple browser-based Blackjack game implemented using HTML, CSS, and JavaScript. It provides an intense and enjoyable gaming experience where players aim to beat the dealer and get their score as close to 21 as possible without going over.
@@ -30,8 +19,15 @@ XJack is a simple browser-based Blackjack game implemented using HTML, CSS, and 
 - **Countdown Timer**: A 10-second countdown timer adds excitement to the game.
 
 ## Features Breakdowns
-- **Score Boost**:
+- **Score Boost**: This feature adds a random bonus to the player's score, making it more exciting. When activated, a random boost value between 1 and 5 is assigned to the scoreBoost variable. The button can only be used once per game so if it is already activated my function returns nothing.
 ![Score Boost](https://github.com/CharlesAD/XJack_Game/blob/master/carbon.png)
+
+- **Freeze**: This feature allows the player to pause the countdown timer and adds 3 points to their score. It can be activated only once per game. The togglePause function pauses the countdown once selected. addPointsToScore adds 3 points to the playerTotal and shows the player this on the screen once the freeze button has been selected. Both the togglePause and addPointsToScore functions are called on the Freeze button click.
+![Freeze](https://github.com/CharlesAD/XJack_Game/blob/master/carbon-2.png)
+
+- **Countdown Timer**: XJack introduces a time limit of 10 seconds for the player's turn. If the player does not make a decision within the allotted time, the game automatically proceeds with the "stay" action.
+![Countdown Timer](https://github.com/CharlesAD/XJack_Game/blob/master/carbon-3.png)
+
 
 
 ## How to Play
@@ -41,7 +37,7 @@ XJack is a simple browser-based Blackjack game implemented using HTML, CSS, and 
 3. On the start screen, click the "Start Game" button to begin playing.
 5. Follow the on-screen instructions to play the game.
 6. Use the "Hit", "Boost", "Freeze" and "Stay" buttons to make your moves.
-7. If applicable, use the Boost and Freeze buttons strategically to enhance your gameplay experience.
+7. If applicable, use the Boost and Freeze buttons strategically to enhance your GamePlay experience.
 
 ## Project Structure
 
